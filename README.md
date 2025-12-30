@@ -1,5 +1,7 @@
 # lab3.md
-- Repository for Lab3
+
+Repository for Lab3
+
 - Ініціали: Бойко М.В.
 - Група: 431
 - Варіант: 1
