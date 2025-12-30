@@ -25,27 +25,26 @@ function startTimer(int timeInSeconds)
 {
     if (timeInSeconds <= 0)
     {
-        print "Error: Invalid time"
-        return
-    }
-
-    while (timeInSeconds > 0)
-    {
+   print "Error: Invalid time"
+           return
+     }
+   while (timeInSeconds > 0)
+   {
         print "Remaining time: " + timeInSeconds
         wait 1 second
         timeInSeconds = timeInSeconds - 1
-    }
+     }
 
     print "Timer finished"
-    play sound
-}
+       play sound
+   }
 
 5. Тестування
 Встановити таймер на 5 секунд - після завершення з’являється сповіщення.
 Встановити таймер на 0 секунд - система видає помилку.
 Скасувати таймер до завершення - таймер не спрацьовує.
 
-6. Висновки
+7. Висновки
 Для такого простого застосунку найкраще підходить Agile-підхід з короткими ітераціями.
 Він дозволяє швидко додавати нові функції (наприклад, повторювані будильники або вибір звуку) і враховувати фідбек користувачів.
 Waterfall буде занадто негнучким, а Spiral - надто складним для невеликого проєкту.
